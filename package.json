@@ -1,0 +1,39 @@
+{
+  "name": "jumper",
+  "version": "0.0.1",
+  "description": "基于threejs仿微信跳一跳小游戏",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --watch -p -d",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilins/jumper.git"
+  },
+  "author": "lule0102@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilins/jumper/issues"
+  },
+  "homepage": "https://github.com/lilins/jumper#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "jsx-loader": "^0.13.2",
+    "path": "^0.12.7",
+    "three": "^0.89.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "three": "^0.89.0"
+  }
+}
