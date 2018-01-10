@@ -28,6 +28,9 @@
     "file-loader": "^1.1.6",
     "jsx-loader": "^0.13.2",
     "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.19.1",
     "three": "^0.89.0",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
@@ -36,6 +39,8 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "three": "^0.89.0"
+    "three": "^0.89.0",
+    "css-loader": "^0.28.8",
+    "style-loader": "^0.19.1"
   }
 }
