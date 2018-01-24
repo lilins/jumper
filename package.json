@@ -4,7 +4,7 @@
   "description": "基于threejs仿微信跳一跳小游戏",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js --watch -p -d",
+    "start": "webpack-dev-server --config webpack.config.js --watch -p -d --public",
     "test": "test"
   },
   "repository": {
@@ -25,6 +25,12 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.8",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "file-loader": "^1.1.6",
     "jsx-loader": "^0.13.2",
     "path": "^0.12.7",
